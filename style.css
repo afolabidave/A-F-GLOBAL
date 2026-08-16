@@ -228,7 +228,8 @@ ul {
     background-color: var(--bg-main);
     background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(240, 244, 248, 0.95)), url('IMAGE/RIDER.jpg');
     background-size: cover;
-    background-position: top center;
+    background-position: center;
+    background-repeat: no-repeat;
     z-index: 1;
 }
 
@@ -285,6 +286,14 @@ ul {
 }
 
 @media (max-width: 768px) {
+    .hero {
+        background-position: center;
+        background-attachment: scroll;
+    }
+    .about {
+        background-position: center;
+        background-attachment: scroll;
+    }
     .mission-vision {
         grid-template-columns: 1fr;
     }
