@@ -116,9 +116,11 @@ ul {
 }
 
 .logo-img {
-    height: 65px;
+    height: 240px;
     width: auto;
     object-fit: contain;
+    object-position: left center;
+    margin: -75px 0 -75px -40px;
 }
 
 .nav-links {
