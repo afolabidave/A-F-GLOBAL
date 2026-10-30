@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 if(navLinks.classList.contains('active')){
                     navLinks.classList.remove('active');
                 }
-                const headerOffset = 80;
+                const headerOffset = 110;
                 const elementPosition = target.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
   
